@@ -1,0 +1,10 @@
+SQL Injection occurs when user input is concatenated into SQL queries without sanitization.
+Attackers can read, modify, or delete database data.
+
+Cross-Site Scripting (XSS) allows attackers to inject malicious JavaScript into web pages.
+
+Command Injection happens when user input is passed directly to system commands.
+
+Insecure Dependencies are libraries with known CVEs that expose systems to exploits.
+
+Open Ports and Misconfiguration expose unintended services to attackers.
