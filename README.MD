@@ -58,6 +58,17 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
 
 Place the downloaded `.gguf` file inside the `models/` directory.
 
+## Environment Variables
+
+This project uses environment variables to securely manage secrets.
+
+### Pinecone API Key
+
+Set the Pinecone API key before running the application.
+
+**Windows**
+setx PINECONE_API_KEY "your_pinecone_api_key"
+
 
 ## Setup Instructions
 
@@ -70,18 +81,6 @@ pip install -r requirements.txt
 
 ### 3. Set Pinecone API Key
 setx PINECONE_API_KEY "your_pinecone_api_key"
-
-## Environment Variables
-
-This project uses environment variables to securely manage secrets.
-
-### Pinecone API Key
-
-Set the Pinecone API key before running the application.
-
-**Windows**
-setx PINECONE_API_KEY "your_pinecone_api_key"
-
 
 ### 4. How to Run
 python app.py
