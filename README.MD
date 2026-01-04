@@ -65,7 +65,7 @@ Place the downloaded `.gguf` file inside the `models/` directory.
 python -m venv venv
 venv\Scripts\activate
 
-# 2. Install Dependencies
+### 2. Install Dependencies
 pip install -r requirements.txt
 
 ### 3. Set Pinecone API Key
